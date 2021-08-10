@@ -1,0 +1,67 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Adaptive
+        link(rel="stylesheet", href="styles/nouislider.min.css")
+        link(rel="stylesheet", href="styles/style.css")
+    body 
+        .container(id="top")
+            // scroll top 
+            button.scroll-top.scroll-top--hide
+            // main content 
+            main.main
+                h1.main__title Квартиры
+                .main__sort.sort
+                    span.sort__plan Планировка
+                    span.sort__flat Квартира
+                    span(id="sort-btn" data-target="size").sort__size S, м²
+                    span(id="sort-btn" data-target="floor").sort__floor Этаж
+                    span(id="sort-btn" data-target="price").sort__price Цена, ₽
+                ul.main__list.flat-list
+                button(id="more-btn").main__btn Загрузить ещё
+            // sidebar
+            .sidebar
+                // radio buttons 
+                .widget
+                    label.radio
+                        input(type="radio" name="flat" value="1" checked).radio__input
+                        span.radio__text 1к
+                    label.radio
+                        input(type="radio" name="flat" value="2").radio__input
+                        span.radio__text 2к
+                    label.radio
+                        input(type="radio" name="flat" value="3").radio__input
+                        span.radio__text 3к
+                    label.radio.radio--hide
+                        input(type="radio" name="flat" value="4").radio__input
+                        span.radio__text 4к
+                .sidebar__filter.filter
+                    span.filter__title Стоимость квартиры, ₽
+                    .filter__content
+                        label.filter__label
+                            span.filter__text от
+                            input(type="number" id="input-price-1").filter__input
+                        label.filter__label
+                            span.filter__text до
+                            input(type="number" id="input-price-2").filter__input
+                    // range-slider 1 
+                    .range-slider.filter__slider(id="slider-price")
+                .sidebar__filter.filter
+                    span.filter__title Площадь, м²
+                    .filter__content
+                        label.filter__label
+                            span.filter__text от
+                            input(type="number" id="input-size-1").filter__input
+                        label.filter__label
+                            span.filter__text до
+                            input(type="number" id="input-size-2").filter__input
+                    // range-slider 2 
+                    .filter__slider.range-slider(id="slider-size")
+                    span.filter__reset Сбросить параметры
+        script(src='js/nouislider.min.js')
+        script(src='js/range-slider.js')
+        script(src='js/get-data.js')
+        script(src='js/scroll-top.js')

@@ -1,0 +1,17 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	width: 1440px;
+	margin: 0 auto;
+	padding: 0 80px;
+	padding-top: 96px;
+	padding-bottom: 104px;
+}
+
+@media (max-width: 1440px) {
+	.container {
+		width: 960px;
+		margin: 0 auto;
+		padding: 48px 54px;
+	}
+}

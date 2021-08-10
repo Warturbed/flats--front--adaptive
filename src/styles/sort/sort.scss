@@ -1,0 +1,87 @@
+$green: #3eb57c;
+
+.sort {
+	span {
+		font-size: 14px;
+		line-height: 20px;
+		display: inline-block;
+		margin-right: 20px;
+		&:last-child {
+			margin: 0;
+		}
+	}
+	&__plan {
+		width: 80px;
+	}
+	&__flat {
+		width: 281px;
+	}
+	&__size {
+		width: 120px;
+		cursor: pointer;
+		&::after {
+			content: url('../img/sort-arrows.png');
+			margin-left: 8px;
+			width: 10px;
+			height: 7px;
+		}
+	}
+	&__floor {
+		width: 120px;
+		cursor: pointer;
+		&::after {
+			content: url('../img/sort-arrows.png');
+			margin-left: 8px;
+			width: 10px;
+			height: 7px;
+		}
+	}
+	&__price {
+		width: 120px;
+		cursor: pointer;
+		&::after {
+			content: url('../img/sort-arrows.png');
+			margin-left: 8px;
+			width: 10px;
+			height: 7px;
+		}
+	}
+	&__btn--active {
+		color: $green;
+		&::after {
+			content: url('../img/sort-arrows-active.png');
+			margin-left: 8px;
+			width: 10px;
+			height: 7px;
+		}
+	}
+}
+
+@media (max-width: 1440px) {
+	.sort {
+		span {
+			font-size: 14px;
+			line-height: 20px;
+			display: inline-block;
+			margin-right: 20px;
+			&:last-child {
+				margin: 0;
+			}
+		}
+		&__plan {
+			display: none !important;
+		}
+		&__flat {
+			display: none !important;
+		}
+		&__size {
+			width: auto;
+		}
+		&__floor {
+			width: auto;
+		}
+		&__price {
+			width: auto;
+		}
+	}
+}

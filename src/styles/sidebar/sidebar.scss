@@ -1,0 +1,21 @@
+.sidebar {
+	padding: 40px;
+	width: 399px;
+	height: 372px;
+	background: linear-gradient(135deg, rgba(174, 228, 178, 0.3) 0%, rgba(149, 208, 161, 0.3) 100%);
+	border-radius: 10px;
+	&__filter {
+		margin-top: 26px;
+	}
+}
+
+@media (max-width: 1440px) {
+	.sidebar {
+		padding: 20px 19px;
+		width: 318px;
+		height: 318px;
+		&__filter {
+			margin-top: 24px;
+		}
+	}
+}

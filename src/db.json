@@ -1,0 +1,472 @@
+{
+    "flatlist": [
+        {   
+            "id": "1",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 63.2,
+            "floor": 1,
+            "price": 3630520
+        },
+        {   
+            "id": "2",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 1,
+            "size": 120.2,
+            "floor": 1,
+            "price": 4857759
+        },
+        {   
+            "id": "3",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 1,
+            "size": 70.3,
+            "floor": 1,
+            "price": 3650759
+        },
+        {   
+            "id": "4",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 3,
+            "size": 63.5,
+            "floor": 1,
+            "price": 7671215
+        },
+        {   
+            "id": "5",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 63.6,
+            "floor": 1,
+            "price": 3875554
+        },
+        {   
+            "id": "6",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 1,
+            "size": 63.3,
+            "floor": 1,
+            "price": 5730570
+        },
+        {   
+            "id": "7",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 1,
+            "size": 65,
+            "floor": 1,
+            "price": 6649600
+        },
+        {   
+            "id": "8",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 1,
+            "size": 63.8,
+            "floor": 1,
+            "price": 2640789
+        },
+        {   
+            "id": "9",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 3,
+            "size": 63.9,
+            "floor": 1,
+            "price": 6671314
+        },
+        {   
+            "id": "10",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 3,
+            "size": 63.1,
+            "floor": 1,
+            "price": 6275451
+        },
+        {   
+            "id": "11",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 39,
+            "floor": 1,
+            "price": 4903543
+        },
+        {   
+            "id": "12",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 3,
+            "size": 63.3,
+            "floor": 1,
+            "price": 7643293
+        },
+        {   
+            "id": "13",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 3,
+            "size": 40.1,
+            "floor": 1,
+            "price": 7295733
+        },
+        {   
+            "id": "14",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 33.4,
+            "floor": 1,
+            "price": 3559372
+        },
+        {   
+            "id": "15",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 63.5,
+            "floor": 1,
+            "price": 7483725
+        },
+        {   
+            "id": "16",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 63.6,
+            "floor": 1,
+            "price": 8362643
+        },
+        {   
+            "id": "17",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 80.7,
+            "floor": 1,
+            "price": 5762834
+        },
+        {   
+            "id": "18",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 1,
+            "size": 147.8,
+            "floor": 1,
+            "price": 6872648
+        },
+        {   
+            "id": "19",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 1,
+            "size": 65.6,
+            "floor": 1,
+            "price": 7483824
+        },
+        {   
+            "id": "20",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 1,
+            "size": 63.1,
+            "floor": 1,
+            "price": 7682845
+        },
+        {   
+            "id": "21",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 3,
+            "size": 63.2,
+            "floor": 1,
+            "price": 6389364
+        },
+        {   
+            "id": "22",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 1,
+            "size": 37.5,
+            "floor": 1,
+            "price": 7473633
+        },
+        {   
+            "id": "23",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 63.4,
+            "floor": 1,
+            "price": 3547372
+        },
+        {   
+            "id": "24",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 3,
+            "size": 71.4,
+            "floor": 1,
+            "price": 6645352
+        },
+        {   
+            "id": "25",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 3,
+            "size": 56.3,
+            "floor": 1,
+            "price": 6453823
+        },
+        {   
+            "id": "26",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 68.1,
+            "floor": 1,
+            "price": 4873664
+        },
+        {   
+            "id": "27",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 33.2,
+            "floor": 1,
+            "price": 2760520
+        },
+        {   
+            "id": "28",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 3,
+            "size": 133,
+            "floor": 3,
+            "price": 4647776
+        },
+        {   
+            "id": "29",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 70,
+            "floor": 3,
+            "price": 3747362
+        },
+        {   
+            "id": "30",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 1,
+            "size": 38.5,
+            "floor": 1,
+            "price": 7748833
+        },
+        {   
+            "id": "31",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 47.5,
+            "floor": 8,
+            "price": 8647832
+        },
+        {   
+            "id": "32",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 1,
+            "size": 46.3,
+            "floor": 3,
+            "price": 5730343
+        },
+        {   
+            "id": "33",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 3,
+            "size": 44.8,
+            "floor": 2,
+            "price": 6648392
+        },
+        {   
+            "id": "34",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 68.8,
+            "floor": 1,
+            "price": 2664839
+        },
+        {   
+            "id": "35",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 3,
+            "size": 86.9,
+            "floor": 2,
+            "price": 6671314
+        },
+        {   
+            "id": "36",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 3,
+            "size": 39.1,
+            "floor": 1,
+            "price": 3276479
+        },
+        {   
+            "id": "37",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 59.4,
+            "floor": 6,
+            "price": 4996543
+        },
+        {   
+            "id": "38",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 3,
+            "size": 96.3,
+            "floor": 10,
+            "price": 5746324
+        },
+        {   
+            "id": "39",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 3,
+            "size": 47.1,
+            "floor": 1,
+            "price": 7299733
+        },
+        {   
+            "id": "40",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 86.3,
+            "floor": 5,
+            "price": 3554372
+        },
+        {   
+            "id": "41",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 49.5,
+            "floor": 9,
+            "price": 4743735
+        },
+        {   
+            "id": "42",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 63.6,
+            "floor": 14,
+            "price": 8346373
+        },
+        {   
+            "id": "43",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 80.7,
+            "floor": 1,
+            "price": 5762834
+        },
+        {   
+            "id": "44",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 1,
+            "size": 127.8,
+            "floor": 2,
+            "price": 6872648
+        },
+        {   
+            "id": "45",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 1,
+            "size": 74.6,
+            "floor": 7,
+            "price": 6464737
+        },
+        {   
+            "id": "46",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 1,
+            "size": 36.1,
+            "floor": 8,
+            "price": 8474733
+        },
+        {   
+            "id": "47",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 3,
+            "size": 63.2,
+            "floor": 11,
+            "price": 5218473
+        },
+        {   
+            "id": "48",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 1,
+            "size": 37.5,
+            "floor": 13,
+            "price": 6473838
+        },
+        {   
+            "id": "49",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 63.4,
+            "floor": 16,
+            "price": 3758483
+        },
+        {   
+            "id": "50",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 2,
+            "size": 30.4,
+            "floor": 9,
+            "price": 4837373
+        },
+        {   
+            "id": "51",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 1,
+            "size": 56.3,
+            "floor": 2,
+            "price": 3847748
+        },
+        {   
+            "id": "52",
+            "img": "img/flat-img.png",
+            "text": "-комнатная №104",
+            "rooms": 3,
+            "size": 68.1,
+            "floor": 8,
+            "price": 6578383
+        }
+     ]
+}

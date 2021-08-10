@@ -1,0 +1,26 @@
+$green: #3eb57c;
+$main: #0b1739;
+
+.noUi-target {
+	background: #666;
+	border: none;
+	border-radius: 1.5px;
+	height: 3px;
+	box-shadow: none;
+}
+.noUi-connect {
+	background: $green;
+}
+.noUi-handle {
+	box-shadow: none;
+	width: 14px !important;
+	height: 14px !important;
+	background: $green;
+	border: none;
+	border-radius: 100%;
+	right: -10px !important;
+}
+.noUi-handle::before,
+.noUi-handle::after {
+	display: none;
+}
