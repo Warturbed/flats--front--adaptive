@@ -17,8 +17,8 @@ fetch(requestUrl).then(response => {
                 // Фильтруем массив на входе
                 return updateArr = newData.filter(function (item) {
                     // Сравниваем значения слайдеров
-                    let sliderPriceValues = sliderByPrice.noUiSlider.get()
-                    let sliderSizeValues = sliderBySize.noUiSlider.get()
+                    const sliderPriceValues = sliderByPrice.noUiSlider.get()
+                    const sliderSizeValues = sliderBySize.noUiSlider.get()
                     // Находим активную кнопку фильтра по количеству комнат
                     const radioBtnChecked = document.querySelector('input:checked')
                     return  item.price >= sliderPriceValues[0] &&
@@ -36,7 +36,7 @@ fetch(requestUrl).then(response => {
                 // Очищаем i для правильного функционирования добавления li (БОЛЬШЕ ПОСТОВ)
                 i = 0
                 // Клонируем массив и присваиваем переменной данные первых 10 постов
-                let newDataArr = Object.assign([], updateList()).splice(0, 10)
+                const newDataArr = Object.assign([], updateList()).splice(0, 10)
                 let showList = ''
                 newDataArr.forEach(function (item) {
                     showList += `
@@ -65,11 +65,11 @@ fetch(requestUrl).then(response => {
             // Отображение массива по клику по кнопке "Загрузить ещё"
             moreBtn.addEventListener('click', () => {
                 // Определяем сдвиг массива на величину показа ShowList()
-                let step = 10
+                const step = 10
                 // Увеличиваем i на шаг c каждым кликом
                 i = i + step
                 // Клонируем массив
-                let moreArr = Object.assign([], updateList()).splice(i, 10)
+                const moreArr = Object.assign([], updateList()).splice(i, 10)
                 // Выводим на страницу
                 moreArr.forEach(function (item) {
                     flatArr.innerHTML += `
@@ -89,7 +89,7 @@ fetch(requestUrl).then(response => {
             })
             // Функция скрытия и показа кнопки
             function hideMoreBtn() {
-                let allLi = document.querySelectorAll('.flat-item')
+                const allLi = document.querySelectorAll('.flat-item')
                 // Если длина li >= длины отфильтрованного массива, скрываем кнопку
                 if (allLi.length >= updateList().length) {
                     moreBtn.classList.add('main__btn--hide')
@@ -105,7 +105,7 @@ fetch(requestUrl).then(response => {
             // Добавление класса active элементам
             sortBtns.forEach((item) => {
                 item.addEventListener('click', () => {
-                    let currentBtn = item
+                    const currentBtn = item
                     // Убираем класс у всех item
                     sortBtns.forEach((item) => {
                         item.classList.remove('sort__btn--active')
@@ -113,7 +113,7 @@ fetch(requestUrl).then(response => {
                     // Добавляем класс текущей item
                     currentBtn.classList.add('sort__btn--active')
                     // Находим таргет
-                    let sortTarget = currentBtn.dataset.target
+                    const sortTarget = currentBtn.dataset.target
                     //Проверяем sortType и в зависимости от значения сортируем по возрастанию/убыванию
                     if (sortTarget === 'price') {
                         sortType === false ? newData.sort((a, b) => a.price > b.price ? 1 : -1) : newData.sort((a, b) => a.price < b.price ? 1 : -1);
